@@ -8,7 +8,7 @@ GPIO.setwarnings(True)
 GPIO.setmode(GPIO.BCM)
 
 # read data using pin 14
-instance = dht11.DHT11(pin=14)
+instance = dht11.DHT11(pin=17)
 
 try:
 	while True:
@@ -19,7 +19,7 @@ try:
 	        print("Temperature: %-3.1f C" % result.temperature)
 	        print("Humidity: %-3.1f %%" % result.humidity)
 
-	    time.sleep(6)
+	    time.sleep(1)
 
 except KeyboardInterrupt:
     print("Cleanup")
