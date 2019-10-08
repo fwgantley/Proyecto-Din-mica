@@ -31,7 +31,7 @@ else:
 
 For working example, see `dht11_example.py` (you probably need to adjust pin for your configuration)
 
-
+holi
 # License
 
 This project is licensed under the terms of the MIT license.
