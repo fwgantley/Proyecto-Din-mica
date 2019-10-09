@@ -1,15 +1,65 @@
 <!DOCTYPE html>
-   <head>
-      <title>DHT Sensor data </title>
-      <link rel="stylesheet" href='../static/style.css'/>
-   </head>
-   <body>
-	<h1>DHT Sensor Data </h1>
-	<h3> TEMPERATURE   ==>  {{ temp  }} oC</h3>
-	<h3> HUMIDITY (Rel.) ==>  {{ hum  }} %</h3>
-	<hr>
-	<h3> Last Sensors Reading: {{ time }} ==> <a href="/"class="button">REFRESH</a></h3>	
-	<hr>
-	<p> @2018 Developed by MJRoBot.org</p>
+	<head>
+		<title>Alambique DIQB</title>
+		<link type="text/css" rel="stylesheet" href="../static/css/style.css"/>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="title">
+			<h1>Alamique DIQB</h1>
+			<p>Grupo 8 - Dinámica</p>
+		</div>
+
+		<hr>
+		<h3> Última lectura de los sensores: {{ time }}</h3>
+
+		<a href="/" class="btn btn-primary">ACTUALIZAR DATOS</a>	
+		<hr>
+		<div class="panel panel-primary">
+			<div class="panel-heading">Sensor Temperatura Capitel</div>
+			<div class="panel-body">
+				<table>
+					<tr>
+						<td>Temperature</td>
+						<td> {{temp}} °C</td>
+					</tr>
+					<tr>
+						<td>Humidity</td>
+						<td> {{hum}} %</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="panel panel-primary">
+			<div class="panel-heading">Sensor 2 Temperatura </div>
+			<div class="panel-body">
+				<table>
+					<tr>
+						<td>Temperature</td>
+						<td> {{temp}} °C</td>
+					</tr>
+					<tr>
+						<td>Humidity</td>
+						<td> {{hum}} %</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="panel panel-primary">
+			<div class="panel-heading">Sensor Potencia</div>
+			<div class="panel-body">
+				<table>
+					<tr>
+						<td>Temperature</td>
+						<td> {{temp}} °C</td>
+					</tr>
+					<tr>
+						<td>Humidity</td>
+						<td> {{hum}} %</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<hr>
    </body>
 </html>

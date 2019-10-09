@@ -1,0 +1,22 @@
+body {
+	background-color: white;
+	color: black;
+	padding: 1%;
+	text-align: center;
+
+  }
+
+.title {
+	margin: 30px;
+}
+.panel {
+	width: 30%;
+	/* display: inline-block; */
+}
+
+table {
+	width: 500px;
+}
+td {
+	width: 50%;
+}
